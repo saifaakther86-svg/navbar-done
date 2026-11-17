@@ -1,0 +1,88 @@
+/* All Common css Start */
+  *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: "Lato", sans-serif;
+  }
+
+/* All Common css Ends */
+/* Header Part css start */
+
+.navbar{
+       background-color: #121212;
+}
+.navbar-nav{
+       gap: 40px;
+}
+.nav-link{
+       font-size: 20px;
+       color: #959595 !important;
+
+} 
+.nav-link:hover{
+       color: #FD6F00 !important;
+       transition: All linear .3s;
+}
+.navBtn{
+       padding: 12px 40px;
+       background: linear-gradient(90deg, #FD6F00 0%, #E46400 100%);
+       border: none;
+       border-radius: 8px;
+       font-weight: 700;
+       font-size: 16px;
+       color: #FFFFFF;
+}     
+/* Header Part css Ends */
+
+/* banner part css start */
+  #bannerPart{
+    background-color: #121212; 
+    padding-top: 130px;  
+  } 
+  .bannerLeft h5{
+       font-weight: 600;
+       font-size: 24px;
+       letter-spacing:3%;
+       color: #707070;  
+}
+.bannerLeft h2{
+       font-weight: 700;
+       font-size:28px;
+       letter-spacing: 3%;
+       color: #959595;
+       margin-top: 10px;
+       margin-bottom: 24px;
+}
+.bannerLeft h1{
+       font-weight: 900;
+       font-size:70px;
+       letter-spacing: 3%;
+  background: linear-gradient(
+    to right,
+    #984300 0%,
+    #FF6B00 46%,
+    #F36B00 57%,
+    #CA5900 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+ .bannersocialIcon{
+       width: 40px;
+       height: 40px;
+       border-radius: 50%;
+       border: 1px solid #575757;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+ }
+ .bannersocialIcon i{
+     color: #bababa;
+     font-size: 20px;
+ }
+
+
+/* banner part css Ends */
